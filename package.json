@@ -1,0 +1,29 @@
+{
+  "name": "1141-2n-demo-victorhsu-43",
+  "version": "1.0.0",
+  "description": "git log --pretty=format:\"%h%x09%an%x09%ad%x09%s\"",
+  "workspaces": [
+    "demo/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vic0627/1141-2N-demo-victorhsu-43.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vic0627/1141-2N-demo-victorhsu-43/issues"
+  },
+  "homepage": "https://github.com/vic0627/1141-2N-demo-victorhsu-43#readme",
+  "dependencies": {
+    "nx": "^21.5.3"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.93.2"
+  }
+}
