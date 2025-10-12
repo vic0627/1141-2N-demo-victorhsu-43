@@ -1,7 +1,10 @@
 import express from "express";
+import cors from "cors";
 import db from "./database.js";
 
 const app = express();
+
+app.use(cors());
 
 app.use("/api/blog_43", async (req, res, next) => {
   const results = await db.query("select * from blog_43");

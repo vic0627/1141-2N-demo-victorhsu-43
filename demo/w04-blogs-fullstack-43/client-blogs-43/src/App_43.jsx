@@ -1,5 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import { HomeLayoutPage_43, BlogStaticPage_43, HomePage_43, BlogLocalJsonPage_43 } from "./pages";
+import {
+  HomeLayoutPage_43,
+  BlogStaticPage_43,
+  HomePage_43,
+  BlogLocalJsonPage_43,
+  BlogNodePage_43,
+} from "./pages";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "localjson_43",
         element: <BlogLocalJsonPage_43 />,
+      },
+      {
+        path: "node_43",
+        element: <BlogNodePage_43 />,
       },
     ],
   },

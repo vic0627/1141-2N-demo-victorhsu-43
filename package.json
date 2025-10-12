@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "git log --pretty=format:\"%h%x09%an%x09%ad%x09%s\"",
   "workspaces": [
-    "demo/*"
+    "demo/*",
+    "demo/w04-blogs-fullstack-43/*"
   ],
   "main": "index.js",
   "scripts": {
@@ -24,6 +25,8 @@
     "nx": "^21.5.3"
   },
   "devDependencies": {
+    "cors": "^2.8.5",
+    "pg": "^8.16.3",
     "sass-embedded": "^1.93.2"
   }
 }
