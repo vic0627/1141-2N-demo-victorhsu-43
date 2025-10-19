@@ -4,7 +4,8 @@
   "description": "git log --pretty=format:\"%h%x09%an%x09%ad%x09%s\"",
   "workspaces": [
     "demo/*",
-    "demo/w04-blogs-fullstack-43/*"
+    "demo/w04-blogs-fullstack-43/*",
+    "demo/w05-navbar-fullstack-43/*"
   ],
   "main": "index.js",
   "scripts": {
