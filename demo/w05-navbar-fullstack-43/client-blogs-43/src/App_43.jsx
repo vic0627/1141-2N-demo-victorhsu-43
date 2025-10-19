@@ -5,6 +5,7 @@ import {
   HomePage_43,
   BlogLocalJsonPage_43,
   BlogNodePage_43,
+  BookListPage_43,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "node_43",
         element: <BlogNodePage_43 />,
+      },
+      {
+        path: "booklist_43",
+        element: <BookListPage_43 />,
       },
     ],
   },
