@@ -18,7 +18,7 @@ const Navbar_43 = () => {
           <div className="header-right">
             <ul className="main-menu">
               <li className="menu-item">
-                <Link to="#" className="active">
+                <Link to="/" className="active">
                   Home
                 </Link>
               </li>
