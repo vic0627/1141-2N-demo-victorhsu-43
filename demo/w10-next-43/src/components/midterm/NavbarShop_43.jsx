@@ -1,5 +1,5 @@
-import Wrapper from '../../assets/wrappers/midterm/Shop_43';
-import { Link } from 'react-router-dom';
+import Wrapper from '@/assets/wrappers/midterm/Shop_43';
+import Link from 'next/link';
 
 const NavbarShop_43 = () => {
   return (
@@ -9,7 +9,7 @@ const NavbarShop_43 = () => {
           <img src='/images/midterm/assets/crown.svg' />
         </a>
         <div className='options'>
-          <Link to='/'>TKUdemo</Link>
+          <Link href='/'>TKUdemo</Link>
           <a href='./overview.html' className='option'>
             Shop
           </a>
