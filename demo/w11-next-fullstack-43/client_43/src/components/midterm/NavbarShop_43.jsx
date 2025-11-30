@@ -10,9 +10,9 @@ const NavbarShop_43 = () => {
         </a>
         <div className='options'>
           <Link href='/'>TKUdemo</Link>
-          <a href='./overview.html' className='option'>
+          <Link href='/demo/shop_43/node/womens' className='option'>
             Shop
-          </a>
+          </Link>
           <a href='/shop' className='option'>
             Contact
           </a>
